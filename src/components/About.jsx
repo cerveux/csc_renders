@@ -8,10 +8,14 @@ export default function About() {
     return (
         <>
             <main>
-                <div className="about-container">
+                <div className="about-container container">
+                    
                 <FontAwesomeIcon icon={faBuilding} className="edificio"  />
                 <i class="bi bi-instagram"></i>
-                <h1 style={{fontSize:"50px", fontWeight: "700", marginBottom: "45px"}}>
+                <div className="row">
+                    <div className="col-1 col-md-3"></div>
+                    <div className="col-10 col-md-6 align-self-center">
+                    <h1 style={{fontSize:"50px", fontWeight: "700", marginBottom: "45px"}}>
                     Acerca de | About
                 </h1>
                 
@@ -20,10 +24,17 @@ export default function About() {
                 <p>CSC is a 3D visualization studio for architecture, specialized in exterior and interior renderings. We have worked on a wide variety of projects throughout our history. We are happy on always being able to help our customers and bring their ideas to a new level.</p>
 
 
+                    </div>
+                </div>
+                
                 </div>
                 
             </main>
+            <div style={{marginTop: "75px"}}>
             <Footer />
+
+            </div>
+            
 
         </>
     )

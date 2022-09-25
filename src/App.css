@@ -3,6 +3,10 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+  
+#root{
+  background-color: #444444;
+}
 
 main{
   display: flex;
@@ -144,7 +148,7 @@ footer{
 .about-container p{
   font-size: 1.2rem;
   font-weight: 500;
-  margin: 30px 0;
+  margin: 45px 0 45px;
 }
 
 
@@ -175,6 +179,16 @@ footer{
   margin: 40px auto;
   border-radius: 15px;
   height: auto;
+  max-width: 500px;
+
+}
+
+.servicios{
+  /* max-width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; */
+
 
 }
 
@@ -210,13 +224,22 @@ footer{
   min-height: 314px;
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
+  
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .img-servicios{
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-top-right-radius: 0;
+    
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .img-servicios{
+    
     
   }
 }

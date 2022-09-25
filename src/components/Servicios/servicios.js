@@ -1,6 +1,6 @@
-import Modelado3d from "../components/Servicios/Modelado3d";
-import Postproducción from "../components/Servicios/Postproduccion";
-import Renderizado3d from "../components/Servicios/Renderizado3d";
+import Modelado3d from "./Modelado3d";
+import Postproducción from "./Postproduccion";
+import Renderizado3d from "./Renderizado3d";
 
 
 const servicios = [
