@@ -28,9 +28,8 @@ function Navegacion() {
         </li>        
       </ul>
       <div className='socialmedia ' style={{textAlign:"center", marginLeft:"auto"}}>
-          <a target="_blank" href="https://www.instagram.com/csc_arquitectura_inmuebles/"> <FontAwesomeIcon icon={faInstagram} style={{ color: "#b6b6b6" }} size="lg"  /> </a>
+          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/csc_arquitectura_inmuebles/"> <FontAwesomeIcon icon={faInstagram} style={{ color: "#b6b6b6" }} size="lg"  /> </a>
         </div>
-        <a href=""></a>
     </div>
   </div>
   <div>

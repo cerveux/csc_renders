@@ -1,9 +1,6 @@
 import React from "react";
 import ContactoMain from "./ContactoMain";
 import Footer from "./Footer";
-import Header from "./Header";
-
-
 
 export default function Contacto(){
     return(      

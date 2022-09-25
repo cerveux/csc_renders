@@ -130,14 +130,93 @@ footer{
 }
 
 .about-container{
+  font-family: 'Roboto';
   color:#b6b6b6;
   text-align: center;
   max-width: 80%;
   align-self: center;
+  max-width: 800px;
+  margin-bottom: 60px;
+  
   
 }
 
+.about-container p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 30px 0;
+}
+
+
+
 .edificio{
-  font-size: 5rem;
-  margin: 4rem;
+  font-size: 3rem;
+  margin: 2.5rem;
+  
+}
+
+.titulos-servicios{
+  font-family: "Roboto";
+  color:#b6b6b6 ;
+}
+
+.titulos-servicios h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.titulos-servicios h3{
+  font-size: 1.5rem;
+}
+
+.card-container{
+  background-color: #5e5e5e;
+  margin: 40px auto;
+  border-radius: 15px;
+  height: auto;
+
+}
+
+.texto-servicios{
+  padding: 100px 50px;
+  font-family: "Roboto";
+  color:#b6b6b6 ;
+}
+
+.texto-servicios h1{
+  font-weight: 700;
+  margin: 0 30px;
+}
+
+.texto-servicios h4{
+  margin: 20px 30px 10px;
+
+}
+
+.texto-servicios p{
+  margin: 10px 30px;
+  font-size: 1.3rem;
+}
+
+.texto-servicios ul{
+  margin: 20px 30px;
+  font-size: 1.3rem;
+}
+
+.img-servicios{
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  min-height: 314px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media screen and (max-width: 768px){
+  .img-servicios{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+    
+  }
 }
