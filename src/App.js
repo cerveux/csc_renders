@@ -22,7 +22,9 @@ function App() {
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/about" element={<About />} /> 
             <Route path="/servicios" element={<Servicios />} />
-            <Route path="/modal" element={<Modal />} />            
+            <Route path="/modal" element={<Modal >
+              <h1>adsds</h1>
+            </Modal>} />            
           </Route>
           
         </Routes>
