@@ -7,7 +7,7 @@ function ContactoMain() {
     return (
 
 
-        <div className="container text-center contacto-container">
+        <div className="container text-center contacto-container" style={{fontFamily: "Roboto"}}>
             <div className="row justify-content-center justify-content-sm-center justify-content-lg-evenly">
                 <div className="col-11 col-sm-10 col-md-6 col-lg-5">
                 <h2 className="titulo-contacto">Contacto</h2>

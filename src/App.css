@@ -88,6 +88,8 @@ video{
   margin: 50px auto 50px;
   color: #b6b6b6;
   text-align: center;
+  font-family: "Roboto";
+  color:#b6b6b6 ;
 }
 
 .comillas{
@@ -107,7 +109,6 @@ video{
 
 .contacto-title{
   text-align: center;
-  padding: 75px;
   color: #b6b6b6;
   margin-bottom: 75px;
 }
