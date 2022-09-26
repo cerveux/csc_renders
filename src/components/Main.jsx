@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 function Main() {
     return(
-        <>
+        <div className="formato-home">
         <main>
             <Video />
             <CarouselContainer />
@@ -15,7 +15,7 @@ function Main() {
             <ContactoMain />                      
         </main>
         <Footer />
-        </>
+        </div>
         
     )
     

@@ -12,14 +12,14 @@ export default function Servicios() {
                 <h3>Espera lo inesperado</h3>
                 </div>
                 
-                {servicios.map((servicio) => {
+                {servicios.map((servicio, index) => {
                     return (
-                        <div className="card-container container-sm" >
+                        <div className="card-container container-sm" key={index}>
                             <div className="row">
-                                <div class="col-12 col-md-6 texto-servicios text-start">
+                                <div className="col-12 col-md-6 texto-servicios text-start">
                                     {servicio.texto}
                                 </div>
-                                <div class="col-12 col-md-6 img-servicios" style={{ backgroundImage: `url(${servicio.imagen})` }} />
+                                <div className="col-12 col-md-6 img-servicios" style={{ backgroundImage: `url(${servicio.imagen})` }} />
                             </div>
                         </div>
                     )

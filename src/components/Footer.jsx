@@ -1,8 +1,8 @@
 
 function Footer(){
     return(
-        <footer>
-            <div>©2022 por CSC. Web created by Cerveux</div>
+        <footer className="bg-dark text-center text-lg-start">
+            <div className="text-center p-">©2022 por CSC. Web created by <a className="text-light" target="_blank" rel="noreferrer" href="https://portfolio-cerveux.vercel.app/">Cerveux</a></div>
         </footer>
     )
 }

@@ -11,7 +11,7 @@ export default function About() {
                 <div className="about-container container">
                     
                 <FontAwesomeIcon icon={faBuilding} className="edificio"  />
-                <i class="bi bi-instagram"></i>
+                <i className="bi bi-instagram"></i>
                 <div className="row">
                     <div className="col-1 col-md-3"></div>
                     <div className="col-10 col-md-6 align-self-center">

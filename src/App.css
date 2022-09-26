@@ -91,9 +91,14 @@ video{
 }
 
 .comillas{
-  width: 40px;
+  width: 64px;
   fill: #b6b6b6;
   margin-bottom: 75px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);  
 }
 
 .contato-contacto{

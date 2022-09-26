@@ -6,6 +6,7 @@ import Main from './components/Main';
 import Contacto from "./components/Contacto";
 import About from "./components/About";
 import Servicios from "./components/Servicios";
+import Modal from "./components/Modal";
 
 
 
@@ -20,7 +21,8 @@ function App() {
             <Route path="/" element={<Main />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/about" element={<About />} /> 
-            <Route path="/servicios" element={<Servicios />} />           
+            <Route path="/servicios" element={<Servicios />} />
+            <Route path="/modal" element={<Modal />} />            
           </Route>
           
         </Routes>
