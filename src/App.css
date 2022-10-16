@@ -32,9 +32,6 @@ header{
   color: #b6b6b6;
 }
 
-/* .navegacion{
-  background-color: #5e5e5e;
-} */
 
 .header-logo{
   margin: 20px auto 0;
@@ -189,14 +186,14 @@ footer{
 
 }
 
-.servicios{
-  /* max-width: 1190px;
+/* .servicios{
+  max-width: 1190px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column; */
+  flex-direction: column;
 
 
-}
+} */
 
 .texto-servicios{
   padding: 100px 50px;
@@ -251,6 +248,13 @@ footer{
   display: grid;
 }
 
+/* .pruebaemail{
+  
+
+    -webkit-box-shadow: 0 0 0 30px rgba(0, 0, 0, 0) inset !important;
+
+} */
+
 @media screen and (max-width: 767px){
   .img-servicios{
     border-bottom-right-radius: 15px;
@@ -260,9 +264,9 @@ footer{
   }
 }
 
-@media screen and (min-width: 1400px){
+/* @media screen and (min-width: 1400px){
   .img-servicios{
     
     
   }
-}
+} */
